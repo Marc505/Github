@@ -43,3 +43,9 @@ footer {
     background: #333;
     color: white;
 }
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
