@@ -89,3 +89,26 @@ footer {
 .redes-sociales img:hover {
   transform: scale(1.2);
 }
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer .logo-central {
+  width: 40px;
+  margin: 15px auto;
+  display: block;
+}
+
+footer p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
