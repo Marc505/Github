@@ -72,43 +72,20 @@ footer {
   max-width: 500px;
   margin: 0 auto;
 }
-
-.redes-sociales {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 15px;
+.redes-sociales-texto {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
 }
 
-.redes-sociales img {
-  width: 32px;
-  height: 32px;
-  transition: transform 0.3s;
-}
-
-.redes-sociales img:hover {
-  transform: scale(1.2);
-}
-
-footer a {
+.redes-sociales-texto a {
   color: #ccc;
   text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
+  margin: 0 8px;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.redes-sociales-texto a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
-footer .logo-central {
-  width: 40px;
-  margin: 15px auto;
-  display: block;
-}
-
-footer p {
-  margin: 8px 0;
-  line-height: 1.4;
-}
