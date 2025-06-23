@@ -51,56 +51,45 @@ footer {
 }
 
 .contenedor-presupuesto {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
   text-align: center;
-  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .formulario-presupuesto {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 20px;
 }
 
 .formulario-presupuesto input,
 .formulario-presupuesto textarea {
   padding: 10px;
+  font-size: 15px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  font-size: 16px;
+}
+
+.formulario-presupuesto label {
+  text-align: left;
+  font-weight: bold;
 }
 
 .formulario-presupuesto button {
+  padding: 12px;
   background-color: #6A0DAD;
   color: white;
   border: none;
   border-radius: 6px;
-  padding: 10px;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
 }
 
 .formulario-presupuesto button:hover {
   background-color: #8A2BE2;
 }
-
-.redes-sociales-texto {
-  text-align: center;
-  margin: 15px 0;
-  font-size: 14px;
-}
-
-.redes-sociales-texto a {
-  color: #ccc;
-  text-decoration: none;
-  margin: 0 8px;
-}
-
-.redes-sociales-texto a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
