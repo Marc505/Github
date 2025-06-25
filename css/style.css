@@ -50,6 +50,12 @@ footer {
     margin: 10px auto;
 }
 
+.sobre-mi {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
 .habilidades {
   max-width: 600px;
   margin: 40px auto;
