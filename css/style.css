@@ -186,3 +186,50 @@ main {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Contenedor del encabezado */
+.encabezado {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Bloque de marca (logo + título) */
+.marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+/* Menú de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8A2BE2;
+}
+
+.activo {
+    font-weight: bold;
+    text-decoration: underline;
+}
