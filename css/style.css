@@ -101,6 +101,27 @@ main {
     color: #6A0DAD;
 }
 
+/* Sección de servicios */
+.servicios {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.servicios h2 {
+    margin-bottom: 15px;
+    color: #6A0DAD;
+}
+
+.servicios p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 /* Formulario */
 .formulario-presupuesto {
     display: flex;
