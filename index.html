@@ -1,79 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marc - Programador Web</title>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Marc - Programador Web</title>
-    
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    
-    <link rel="stylesheet" href="css/style.css">
-
+  <!-- Favicon para la web e importación del CSS -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <header>
+  <!-- Encabezado con título, logo y menú -->
+  <header>
+    <h1>Marc Dev Studio</h1>
+    <img src="images/logo.png" alt="Logo Web" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="presupuesto.html">Presupuesto</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <h1>Marc Dev Studio</h1>
+  <main>
+    <!-- Sección personal -->
+    <section class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Desarrollador web junior con experiencia en HTML, CSS y JavaScript.</p>
+    </section>
 
-        <img src="images/logo.png" alt="Logo Web" class="logo">
+    <!-- Lista de habilidades -->
+    <section class="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Diseño de páginas web con HTML5 y CSS3</li>
+        <li>Uso de Git y GitHub para control de versiones</li>
+        <li>Maquetación básica responsive</li>
+        <li>Publicación de sitios con GitHub Pages</li>
+        <li>Integración de imágenes, enlaces y formularios</li>
+        <li>Edición básica de imágenes para web</li>
+      </ul>
+    </section>
+  </main>
 
-        <nav>
-            <ul>
-                <li><a href="index.html" class="activo">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="presupuesto.html">Presupuesto</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+  <!-- Pie de página con redes, dirección y aviso legal -->
+  <footer>
+    <div class="redes-sociales">
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="images/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+    </div>
 
-    </header>
-
-    <main>
-
-        <section class="sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>Desarrollador web junior con experiencia en HTML, CSS y JavaScript.</p>
-        </section>
-
-        <section class="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Diseño de páginas web con HTML5 y CSS3</li>
-                <li>Uso de Git y GitHub para control de versiones</li>
-                <li>Maquetación básica responsive</li>
-                <li>Publicación de sitios con GitHub Pages</li>
-                <li>Integración de imágenes, enlaces y formularios</li>
-                <li>Edición básica de imágenes para web</li>
-            </ul>
-        </section>
-
-    </main>
-
-    <footer>
-
-        <div class="redes-sociales">
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="Twitter">
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="Facebook">
-            </a>
-        </div>
-
-        <p>Dirección: Carrer de son Puigdorfila  59, Mallorca</p>
-
-        <p>&copy; 2025 Marc Web. Aviso legal ficticio.</p>
-
-    </footer>
+    <p>Dirección: Carrer de son Puigdorfila 59, Mallorca</p>
+    <p>&copy; 2025 Marc Web. Aviso legal ficticio.</p>
+  </footer>
 
 </body>
-
 </html>
