@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presupuesto - Marc Dev Studio</title>
+    <title>Productos - Marc Dev Studio</title>
 
     <!-- Favicon y hoja de estilos -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -20,38 +20,21 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="presupuesto.html" class="activo">Presupuesto</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="views/productos.html" class="activo">Productos</a></li>
+                <li><a href="views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="views/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Formulario de solicitud -->
-        <section class="contenedor-presupuesto">
-            <h2>Solicitud de presupuesto</h2>
-            <p>Rellena el siguiente formulario y se te responderá lo antes posible:</p>
-
-            <form class="formulario-presupuesto" action="#" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-                <label>
-                    <input type="checkbox" required> Acepto la política de privacidad
-                </label>
-
-                <button type="submit">Enviar Consulta</button>
-            </form>
+        <!-- Galería de productos -->
+        <section class="galeria-productos">
+            <h2>Galería de productos</h2>
+                <img src="images/producto1.jpg" alt="Producto 1" width="400" height="300">
+                <img src="images/producto2.jpg" alt="Producto 2" width="400" height="300">
+                <img src="images/producto3.jpg" alt="Producto 3" width="400" height="300">
+                <img src="images/producto4.jpg" alt="Producto 4" width="400" height="300">
         </section>
     </main>
 
