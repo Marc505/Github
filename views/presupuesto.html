@@ -6,7 +6,7 @@
     <title>Presupuesto - Marc Dev Studio</title>
 
     <!-- Favicon y hoja de estilos -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -14,62 +14,64 @@
     <!-- Encabezado con logo, título y menú -->
     <header class="encabezado">
         <div class="marca">
-            <img src="images/logo.png" alt="Logo Web" class="logo">
+            <img src="../images/logo.png" alt="Logo Web" width="80" height="80" class="logo">
             <h1>Marc Dev Studio</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="views/productos.html">Productos</a></li>
-                <li><a href="views/presupuesto.html" class="activo">Presupuesto</a></li>
-                <li><a href="views/contacto.html">Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="presupuesto.html" class="activo">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
- 
-<main>
-    <!-- Formulario de solicitud -->
-    <section class="contenedor-presupuesto">
-        <h2>Solicitud de presupuesto</h2>
-        <p>Rellena el siguiente formulario y se te responderá lo antes posible:</p>
+        <!-- Formulario de solicitud -->
+        <section class="contenedor-presupuesto">
+            <h2>Solicitud de presupuesto</h2>
+            <p>Rellena el siguiente formulario y se te responderá lo antes posible:</p>
 
-        <form class="formulario-presupuesto" action="#" method="POST">
-            <!-- Solo letras y espacios, mínimo 2 caracteres -->
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required pattern="[A-Za-z\s]{2,}" title="Solo letras y espacios, mínimo 2 caracteres">
-            <!-- Validación con type="email" -->
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required title="Introduce un correo válido">
-            <!-- Teléfono exactamente 9 dígitos -->
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required pattern="\d{9}" title="Introduce un número de 9 cifras">
+            <form class="formulario-presupuesto" action="#" method="POST">
+                <!-- Solo letras y espacios, mínimo 2 caracteres -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required pattern="[A-Za-z\s]{2,}" title="Solo letras y espacios, mínimo 2 caracteres">
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <!-- Validación con type="email" -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required title="Introduce un correo válido">
 
-            <label>
-                <input type="checkbox" required> Acepto la política de privacidad
-            </label>
+                <!-- Teléfono exactamente 9 dígitos -->
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required pattern="\d{9}" title="Introduce un número de 9 cifras">
 
-            <button type="submit">Enviar Consulta</button>
-        </form>
-    </section>
-</main>
+                <!-- Mensaje -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
+                <!-- Política de privacidad -->
+                <label>
+                    <input type="checkbox" required> Acepto la política de privacidad
+                </label>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Pie de página -->
     <footer>
         <div class="redes-sociales">
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="Instagram">
+                <img src="../images/instagram.png" alt="Instagram" width="200" height="100">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="Twitter">
+                <img src="../images/twitter.png" alt="Twitter" width="200" height="100">
             </a>
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="Facebook">
+                <img src="../images/facebook.png" alt="Facebook" width="200" height="100">
             </a>
         </div>
         <p>Dirección: Carrer de son Puigdorfila 59, Mallorca</p>
